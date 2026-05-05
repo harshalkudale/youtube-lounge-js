@@ -1,0 +1,17 @@
+{
+    "name": "youtube-lounge-js",
+    "version": "0.1.0",
+    "description": "JavaScript port of pyytlounge for Electron",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "test": "node --test"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.2",
+        "xml2js": "^0.4.23"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}

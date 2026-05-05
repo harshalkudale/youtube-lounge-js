@@ -1,3 +1,5 @@
+// I had created this file initially to test the SDK, to see if this can even connect to proper yt tv server, it does and I have kept this file for testing. App's using this wrapper should manage their own state.
+
 import fetch from 'node-fetch';
 import { api_base, get_available_captions, get_thumbnail_url } from './api.js';
 import { EventListener, _EmptyListener } from './event_listener.js';
